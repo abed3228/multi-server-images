@@ -1,0 +1,9 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory `/Users/abedalnkib/Desktop/linux embedded/Image server 2'
+cc    -c -o server.o server.c
+ 
+gcc server.o -o server.exe
+gcc client.o -o client.exe
+gcc serverImage.o -o serverImage.exe
+make: Leaving directory `/Users/abedalnkib/Desktop/linux embedded/Image server 2'
+ 

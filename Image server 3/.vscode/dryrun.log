@@ -1,0 +1,8 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory `/Users/abedalnkib/Desktop/linux embedded/Image server 3'
+gcc -std=c11 server.o -o server.exe
+gcc -std=c11 client.o -o client.exe
+gcc -std=c11 serverImage.o -o serverImage.exe
+ 
+make: Leaving directory `/Users/abedalnkib/Desktop/linux embedded/Image server 3'
+ 
